@@ -6,3 +6,5 @@ pin "semantic-ui-sass", to: "https://ga.jspm.io/npm:semantic-ui-sass@2.4.2/seman
 pin "jquery", to: "https://code.jquery.com/jquery-3.6.0.min.js", preload: true
 
 pin_all_from "app/javascript/controllers", under: "controllers"
+pin "@rails/actioncable", to: "actioncable.esm.js"
+pin_all_from "app/javascript/channels", under: "channels"
